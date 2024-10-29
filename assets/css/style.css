@@ -1,0 +1,47 @@
+/*---FONDO WEB---*/
+body,html{
+    background: #212529;
+}
+
+/*---sombreado texto---*/
+
+
+/*
+h5{
+    text-shadow: 2px 4px 4px rgba(43, 44, 46, 0.6);
+  }
+    */
+.grey-shadow{
+    text-shadow: 10px 10px 10px rgba(43, 44, 46, 0.6);
+  }
+
+.grey-text-shadow {
+    text-shadow: rgb(48, 44, 44) -1px -2px;
+  }
+
+  .white-with-grey-shadow {
+    text-shadow:
+      1px 1px 2px black,
+      0 0 1em rgb(76, 76, 85),
+      0 0 0.2em rgb(49, 49, 54);
+    color: white;
+   
+   /* font:
+      1.5em Georgia,
+      "Bitstream Charter",
+      "URW Bookman L",
+      "Century Schoolbook L",
+      serif;*/
+  }
+
+
+  /*FOOTER*/
+footer {
+    min-height: 500px;
+}
+
+.footer-logo {
+    width: 10%;
+    height: 10%;
+}
+
